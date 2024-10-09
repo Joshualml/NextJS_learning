@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background: rgb(61,119,161);
+  background: linear-gradient(45deg, rgba(61,119,161,1) 0%, rgba(195,207,61,1) 32%, rgba(178,185,74,1) 68%, rgba(78,193,201,1) 100%);
+}
+.centroPrincipal{
+  border: solid;
+  width: clamp(10px,80vw,500px);
+  height: 75vh;
+  padding: 20px;
+  background: rgba(165, 50, 50, 0.64);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  border: 1px solid rgba(165, 50, 50, 1);
+
+}

@@ -1,0 +1,16 @@
+.page{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  place-content: center;
+}
+.listBorder{
+  display: flex;
+  flex-direction: column;
+  width: clamp(220px, 20vw, 500px);
+  list-style: none;
+  /* margin-top: 50px; */
+  font-size: 25px;
+  
+}

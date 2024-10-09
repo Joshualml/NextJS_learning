@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
+    gap: 2rem;
+}
+.main li{
+    text-align: start;
+}
+.main li a{
+    text-decoration: none;
+    color: rgb(94, 233, 214);
+    font-style: bold;
+}
+.btnFav{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
